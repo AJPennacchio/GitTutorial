@@ -8,7 +8,7 @@ def mult(x, y):
     print("The product is", str(x * y))
 
 def divi(x, y):
-    print("To be implemented soon. ")
+    print("Currently being implemented. ")
 
 def main():
     x = int(input("Enter a number: "))
