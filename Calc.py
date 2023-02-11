@@ -5,7 +5,7 @@ def subtr(x, y):
     print("The difference is", str(x - y))
 
 def mult(x, y):
-    print("To be implemented soon. ")
+    print("The difference is", str(x * y))
 
 def divi(x, y):
     print("To be implemented soon. ")
