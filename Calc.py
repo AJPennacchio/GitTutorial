@@ -5,10 +5,10 @@ def subtr(x, y):
     print("The difference is", str(x - y))
 
 def mult(x, y):
-    print("The difference is", str(x * y))
+    print("To be implemented soon. ")
 
 def divi(x, y):
-    print("To be implemented soon. ")
+    print("Currently being implemented. ")
 
 def main():
     x = int(input("Enter a number: "))
@@ -23,6 +23,6 @@ def main():
     elif choice.lower() == 'm':
         mult(x, y)
     elif choice.lower() == 'd':
-        mult(x, y)
+        divi(x, y)
 
 main()
