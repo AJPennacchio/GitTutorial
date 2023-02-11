@@ -1,17 +1,20 @@
-import Add
-import Mult
-import Sub
 
-x = int(input("Enter a number: "))
-y = int(input("Enter another number: "))
 
-choice = input("Add(A), Subtract(S), Multiply(M)")
+def adder (x, y):
+    print( "The sum is", str(x + y) )
 
-if choice.lower() == 'a':
-    Add.adder(x, y)
-elif choice.lower() == 's':
-    Sub.subtr(x, y)
-elif choice.lower() == 'm':
-    Mult.multi(x, y)
+def subtr(x, y):
+    print("The difference is", str(x - y))
 
-print("Hello World")
+def main():
+    x = int(input("Enter a number: "))
+    y = int(input("Enter another number: "))
+
+    choice = input("Add(A), Subtract(S) ")
+
+    if choice.lower() == 'a':
+        adder(x, y)
+    elif choice.lower() == 's':
+        subtr(x, y)
+
+main()
