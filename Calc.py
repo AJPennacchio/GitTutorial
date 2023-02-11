@@ -8,7 +8,7 @@ def mult(x, y):
     print("To be implemented soon. ")
 
 def divi(x, y):
-    print("Currently being implemented. ")
+    print("The quotient is", str(x / y))
 
 def main():
     x = int(input("Enter a number: "))
