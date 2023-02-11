@@ -5,10 +5,10 @@ def subtr(x, y):
     print("The difference is", str(x - y))
 
 def mult(x, y):
-    print("The product is", str(x * y))
+    print("To be implemented soon. ")
 
 def divi(x, y):
-    print("The quotient is", str(x / y))
+    print("To be implemented soon. ")
 
 def main():
     x = int(input("Enter a number: "))
